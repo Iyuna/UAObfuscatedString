@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Matt Coneybeare" => "coneybeare@urbanapps.com" }
   s.source       = { :git => "#{s.homepage}.git", :tag => s.version.to_s }
-  s.source_files = "UAObfuscatedString.swift"
+  s.source_files = "UAObfuscatedString/UAObfuscatedString.swift"
   s.ios.deployment_target = "8.0"
   s.requires_arc = true
 end
