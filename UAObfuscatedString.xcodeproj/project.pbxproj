@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DD48A6321FC17CE900982E44 /* UAObfuscatedString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD48A6281FC17CE900982E44 /* UAObfuscatedString.framework */; };
 		DD48A6371FC17CE900982E44 /* UAObfuscatedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48A6361FC17CE900982E44 /* UAObfuscatedStringTests.swift */; };
-		DD48A6391FC17CE900982E44 /* UAObfuscatedString.h in Headers */ = {isa = PBXBuildFile; fileRef = DD48A62B1FC17CE900982E44 /* UAObfuscatedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD48A6431FC17D4B00982E44 /* UAObfuscatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48A6421FC17D4B00982E44 /* UAObfuscatedString.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		DD48A6281FC17CE900982E44 /* UAObfuscatedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UAObfuscatedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD48A62B1FC17CE900982E44 /* UAObfuscatedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UAObfuscatedString.h; sourceTree = "<group>"; };
 		DD48A62C1FC17CE900982E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD48A6311FC17CE900982E44 /* UAObfuscatedStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UAObfuscatedStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD48A6361FC17CE900982E44 /* UAObfuscatedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAObfuscatedStringTests.swift; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 		DD48A62A1FC17CE900982E44 /* UAObfuscatedString */ = {
 			isa = PBXGroup;
 			children = (
-				DD48A62B1FC17CE900982E44 /* UAObfuscatedString.h */,
 				DD48A6421FC17D4B00982E44 /* UAObfuscatedString.swift */,
 				DD48A62C1FC17CE900982E44 /* Info.plist */,
 			);
@@ -96,7 +93,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD48A6391FC17CE900982E44 /* UAObfuscatedString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +275,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvsimulator appletvos macosx watchsimulator watchos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-                VERSIONING_SYSTEM = "apple-generic";
+				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;

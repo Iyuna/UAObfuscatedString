@@ -5,6 +5,8 @@
 //  Copyright (c) 2016 Urban Apps. All rights reserved.
 //
 
+import Foundation
+
 // MARK: - a-z -
 public extension String {
     var a : String { get { return self + "a" } }
